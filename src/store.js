@@ -53,7 +53,6 @@ class Store {
       items: this.state.items.concat({
         code,
         title: "Новая запись №" + code,
-        //   count: 0,
       }),
     });
   }
