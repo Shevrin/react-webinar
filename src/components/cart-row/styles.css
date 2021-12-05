@@ -1,0 +1,21 @@
+/* Контрол с общими действиями */
+.CartRow{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.CartRow__title{
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.CartRow__total{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.CartRow__actions{
+    margin-left: 15px;
+}

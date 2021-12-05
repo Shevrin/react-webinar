@@ -1,0 +1,27 @@
+/* Пункт списка */
+.CartList{
+    display: flex;
+    justify-content: flex-start;
+    transition: background-color 1s;
+}
+
+.CartList__title{
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.CartList__number{
+    padding: 20px 10px 20px 20px;
+}
+
+.CartList__price{
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.CartList__quantity{
+    min-width: 50px;
+    padding: 20px 15px 20px 55px;
+    font-size: 18px;
+    text-align: right;
+}
